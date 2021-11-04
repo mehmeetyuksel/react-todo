@@ -26,7 +26,7 @@ function ActionList({actions, changeActions}) {
             action.name !== "" & action.isDone === showActive ?
                 <div className="items" key={i}>
                 <div>
-                <p className="fs-5">{action.name}</p>
+                <p className="fs-5">{i}) {action.name}</p>
                 </div>
                 <div>
                 {action.isDone ? <button className="btn btn-warning" style={{marginRight: "10px"}}  onClick={() => isDoneHandle(i)}>Uncomplete</button> : <button className="btn btn-success" style={{marginRight: "10px"}} onClick={() => isDoneHandle(i)}>Complete</button>}
