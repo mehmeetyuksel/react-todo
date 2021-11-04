@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# To-Do App with ReactJS
+
+A basic to-do app created by using ReactJS and Bootstrap. You can visit and try the app via [this link.](https://kodluyoruz-todo.herokuapp.com/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
